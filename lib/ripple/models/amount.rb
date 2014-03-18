@@ -30,7 +30,7 @@ module Ripple
 
       def to_hash(options = {})
         if is_xrp?
-          self.value
+          self.value.to_i.to_s
         else
           {currency: self.currency, issuer: self.issuer, value: self.value}
         end

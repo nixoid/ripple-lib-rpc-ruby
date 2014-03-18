@@ -5,10 +5,11 @@
 .rvmrc
 .yardoc
 .rake_tasks~
-Gemfile.lock
 coverage/*
 doc/*
 log/*
 pkg/*
 .idea/*
 tmp/*
+Gemfile.lock
+spec/cassettes/*.yml
